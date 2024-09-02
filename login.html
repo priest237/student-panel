@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1>Register Now!</h1>
+    <div class="container">
+       
+        <form class="registration-form">
+            <label for="country">Region</label>
+            <select id="Region" name="Region">
+                <option value="Yaounde">Yaounde</option>
+                <option value="Doula">Doula</option>
+                <option value="Buea">Buea</option>
+                <option value="Bamenda">Bamenda</option>
+                <option value="Ebolowa">Ebolowa</option>
+            </select>
+
+            <label for="trade-role">Login As</label>
+            <div class="trade-role">
+                <label class="text-1" for="buyer">Student</label>
+                <input type="radio" id="Student" name="Student" value="Student">
+                <label class="text-1"  for="seller">Adminstrator/School owner</label>
+                <input type="radio" id="both" name="trade_role" value="both">
+            </div>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Login Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirmed Password</label>
+            <input type="password" id="confirm-password" name="confirm_password" required>
+
+            <label for="company-name">School Name</label>
+            <input type="text" id="company-name" name="company_name" required>
+
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full_name" required>
+
+            <label for="tel">Tel</label>
+            <div class="tel-input">
+                <input type="tel" id="tel" name="tel" placeholder="237 - Area - Phone number" required>
+            </div>
+
+
+            <div class="terms">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to <a href="#">Terms of use</a>, <a href="#">Privacy policy</a></label>
+            </div>
+
+            
+        </form>
+        <a href="studend.html"><button>Agree and Register</button></a>
+    </div>
+</body>
+</html>

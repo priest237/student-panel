@@ -1,0 +1,94 @@
+body{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    width: 1140px;
+    height: auto;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 36px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+.qwerty{
+    color: gray;
+    text-decoration: none;
+    margin-right: 24px;
+}
+.pic{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main{
+    font-size: 64px;
+    text-align: center;
+    margin-top: 0px;
+}
+p{
+   font-size: 24px;
+    margin-top: 0px;
+    text-align: center;
+    
+} 
+.btn{
+    height: 48px;
+    width: 300px;
+    background-color: #1d7a85;
+    color: white;
+    padding: 16px 32px 16px 32px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 56px;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: baseline;
+    margin-left: 100px;
+    
+}
+.help{
+    padding: 24px;
+    text-decoration: none;
+    color: black;
+}
+.let{
+    height: 36px;
+    width: 80px;
+    background-color: #1d7a85;
+    color: white;
+    padding: 8px 16px 8px 16px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.need{
+    margin-left: 550px;
+    text-decoration: none;
+    color: gray;
+}
+.whatsapp{
+    width: 24px;
+}

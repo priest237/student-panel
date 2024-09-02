@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+h1{
+    color: #1d7a85;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form label {
+    margin: 10px 0 5px;
+}
+
+.registration-form input,
+.registration-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.trade-role {
+    display: flex;
+    align-items: center;
+}
+.text-1{
+    margin-right: 100px;
+    font-size: 18px;
+}
+
+.tel-input {
+    display: flex;
+    align-items: center;
+}
+
+.tel-input input {
+    flex: 1;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.terms label {
+    margin-left: 5px;
+}
+
+.terms a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #1d7a85;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #1d7a85;
+}
